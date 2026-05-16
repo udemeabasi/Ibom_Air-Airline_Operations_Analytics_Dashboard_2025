@@ -3,12 +3,12 @@ A production-grade, 16-page Power BI report delivering full-year operational int
 
 Table of Contents
 
-Project Overview
-Business Problem
-Key Insights & Findings
-Dashboard Pages
-Data Model & DAX
-Technical Stack
-Repository Structure
-How to Use
-Author
+* Project Overview
+* Business Problem
+* Key Insights & Findings
+* Dashboard Pages
+* Data Model & DAX
+* Technical Stack
+* Repository Structure
+* How to Use
+* Author
