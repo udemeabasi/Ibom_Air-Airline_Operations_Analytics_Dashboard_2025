@@ -12,3 +12,14 @@ Table of Contents
 * Repository Structure
 * How to Use
 * Author
+<br>
+Project Overview
+Detail          Info
+Tool            Microsoft Power BI Desktop
+Domain          Aviation / Airline Operations
+Year            2025 (Full Year — Jan to Dec)
+Report pages    16 analytical views
+Aircraft types  CRJ 900 · A220
+Routes covered  20 origin-destination pairs
+Currency        Nigerian Naira (NGN)
+Data areas      Operations · Commercial · Fleet · Fuel · Cargo · Revenue
