@@ -84,3 +84,5 @@ _Implication: Reviewing the overbooking policy on high-demand routes and strengt
 Tracks the full operations lifecycle: scheduled flights, operated flights, cancellations, unscheduled (charter/ferry) activity, on-time performance, and schedule reliability — by month for all of 2025.
 KPIValueScheduled Flights11,738Operated Flights11,318On-Time Performance (OTP)81%Schedule Reliability (SR)81%Cancelled Flights30Un-operated Flights390Non-Scheduled Flights45
 Trend: OTP peaked at 94% in March and July, before declining sharply to 58% in December. The strongest operational months were Q2–Q3; Q4 showed consistent deterioration.
+
+![Ibom Air Operational Performance Overview](images/Operational-Performance.PNG)
