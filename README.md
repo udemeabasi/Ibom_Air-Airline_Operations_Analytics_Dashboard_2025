@@ -191,3 +191,74 @@ Revenue, passengers, flights, and contribution split between the two A220 tail n
 * CDB's higher flight count (157 more flights than CDA) with proportionally higher revenue confirms similar yield per flight between the two aircraft — around ₦17.9M per flight for CDB vs ₦19.2M for CDA. Interestingly, CDA generates slightly more revenue per flight despite fewer total flights, suggesting CDA is scheduled on more premium or longer sectors.
 * Combined A220 performance: ₦59bn from 3,183 flights = ₦18.5M average revenue per flight, compared to ₦9.5M per flight for the CRJ 900 fleet. The A220 generates nearly double the revenue per flight of the CRJ 900 — the single most important strategic insight in this dashboard for fleet planning.
 * 363,730 passengers carried at an average of ~114 passengers per flight, versus 80 passengers per flight for the CRJ 900 — consistent with the A220's larger cabin configuration.
+
+#### Fleet Cross-Tabular — Flights by Aircraft & Route
+
+
+A complete cross-tab matrix of every aircraft tail number vs. every route — showing exactly how many flights each aircraft operated on each route across the full year.
+
+#### Insights surfaced from this visual:
+
+* CDA and CDB (A220s) are concentrated on just a few routes: ABV–LOS (684 flights each = 1,368 combined), LOS–ABV (684+325 = ~1,009 each side), LOS–PHC (31+223), ABV–PHC (19+220). The A220 is clearly reserved for the highest-frequency, highest-demand corridors.
+* CED is the most versatile aircraft, appearing on every single route including international (ACC–LOS: 115 flights), Calabar (CBQ–ABV: 87, CBQ–LOS: 104), and Enugu routes. CED acts as the network's workhorse with 2,367 total route assignments.
+* BXP is the second-most-distributed aircraft (1,922 flights) with strong presence on ABV–QUO (184), QUO–LOS (232), LOS–QUO (241) — the Abuja-Enugu-Kano corridor. BXP appears purpose-deployed on secondary hub routes.
+* BWL and BXO appear on very few routes (BWL: 8 routes, BXO: 4 routes) consistent with their partial-year operation. Notably, BWL operated ABV–LOS (172 flights) as its primary assignment before retiring.
+* ACC–LOS is exclusively served by CRJ 900s (CEE: 66, CED: 115, BXP: 109, BWK: 45, BWL: 23, BXO: 6). No A220 ever flew the Accra route — a deliberate decision, possibly reflecting yield/slot considerations on the international sector.
+* LOS–QUO is the most aircraft-diverse route with 6 different aircraft types operating it, confirming it as a scheduling buffer route used to fill utilisation gaps across the fleet.
+
+#### Fleet Cross-Tabular — Fleet Type by Route
+
+
+Simplified two-column view showing A220 vs CRJ 900 split per route — the clearest statement of the fleet deployment strategy.
+
+#### Insights surfaced from this visual:
+
+* Only 7 of 20 routes have A220 service: ABV–LOS, LOS–ABV, ABV–PHC, LOS–PHC, PHC–ABV, PHC–LOS, LOS–QUO, QUO–LOS, ABV–ENU, ENU–ABV, LOS–ENU, ENU–LOS. The A220 is strictly deployed on Lagos-origin/destination routes plus a handful of secondary markets.
+* ABV–LOS receives the most A220 flights (1,009) — the A220 accounts for 73% of all ABV–LOS operations. This is the core A220 route.
+* 13 routes are exclusively CRJ 900: ACC–LOS, CBQ–ABV, CBQ–LOS, and multiple other secondary routes. These routes either have insufficient demand to justify widebody capacity or are structurally sized for the CRJ 900's configuration.
+* LOS–PHC has a 254:144 A220:CRJ split, meaning the A220 handles 64% of PHC services — consistent with it being a premium business corridor (Lagos–Port Harcourt oil industry traffic).
+* The CRJ 900's dominance at 8,135 vs A220's 3,183 flights highlights the fleet's strategic structure: the A220 maximises yield on high-demand routes, the CRJ 900 maintains network coverage breadth.
+
+#### Fleet Cross-Tabular — Monthly Aircraft Utilisation
+
+
+Month-by-month flights operated by each individual aircraft tail number, revealing utilisation intensity, entry/exit dates, and workload distribution across the fleet calendar.
+
+#### Insights surfaced from this visual:
+
+* CED is the most consistently deployed aircraft: operating every single month from January to December, with a high of 215 flights in December and a low of 177 in April. Remarkably consistent across all 12 months — the definition of a core fleet asset.
+* CEE mirrors CED's consistency but shows a stronger H2 (206 flights in June, 216 in December) — suggesting it received preferential scheduling as demand picked up in peak season.
+* CDA (A220) operated only 11 months — notably missing December entirely, confirming the earlier fleet availability finding that only one A220 was serviceable in December. CDA's absence in December is the most commercially significant single-aircraft gap of the year.
+* BWL entered January with 172 flights then rapidly wound down (112 in Feb, 117 in Mar, nothing from April onwards). BXO mirrored this — 193 in Jan, 28 in Feb, gone by March. These two aircraft were clearly transitioned out of the fleet in Q1 2025.
+* BWK entered service in July with 106 flights and ramped to 230 in December — the highest single-month count of any aircraft in any month. BWK's December performance partially offset CDA's absence.
+* BXP entered February (66 flights) and quickly scaled to full deployment by March (162), stabilising at ~180–196 flights per month for the remainder of the year. Clean, rapid integration of a new asset.
+* February 2025 was the lowest utilisation month (774 total) due to the overlap of BWL/BXO wind-down and BXP just entering service — a fleet transition gap that created a structural supply trough.
+
+#### Fleet Cross-Tabular — Aircraft Operating Days
+
+
+Calendar days each aircraft operated per month, providing a precise measure of physical availability distinct from flight frequency.
+
+#### Insights surfaced from this visual:
+
+* CED and CEE achieved near-perfect operating day records: CED operated 364 days out of 365 (missing only one day in February with 28 vs 31), CEE operated 362. These two aircraft had virtually zero planned downtime beyond scheduled maintenance windows.
+* CDB (A220) operated 333 days — slightly below CDA's 256. Wait — CDA only shows 256 operating days while CDB shows 333, yet both were supposed to operate the full year. This confirms CDA had significantly more scheduled maintenance or AOG time (approximately 109 days offline).
+* BWK shows 0 operating days from January through June, then 21 in July — confirming it was a new delivery or transfer that entered service in July 2025. By December it operated all 31 days.
+* BWL operated only January (31), February (19), March (23) — 73 days total — confirming a Q1 2025 fleet exit. BXO operated January (31) and February (5) — just 36 days total, an almost immediate retirement.
+* BXP shows 0 days in January, then 11 in February — entered service mid-February and stabilised at full monthly deployment by March onwards.
+* The fleet's combined operating days total 1,892 aircraft-days across 8 active tail numbers — an average of 236.5 operating days per aircraft. Excluding the transitional aircraft (BWL, BXO), the core fleet of 6 averaging ~315 operating days each is an excellent availability metric.
+
+
+#### Fuel Uplift Analysis
+
+
+Total fuel metrics (cost, volume, cost per passenger, cost per flight, price per litre, cost per day), monthly cost trends by aircraft type, fuel price per litre trend, and fuel cost per flight trends.
+
+#### Insights surfaced from this visual:
+
+* ₦30bn total fuel cost on 25.47 million litres is the single largest operational cost item in the business. At ₦83M per day, fuel consumes resources at a rate that leaves no margin for operational inefficiency.
+* Fuel price peaked in January at ₦1,276/litre and trended downward to ₦1,128/litre by November — a 12% reduction over 11 months. This is a favourable and relatively stable pricing environment, in sharp contrast to the 129% fuel price spike seen in early 2026.
+* The CRJ 900 fuel cost is consistently ~2× the A220's monthly fuel spend (e.g., February: CRJ ₦1.99bn vs A220 ₦0.79bn) despite the CRJ operating fewer seat-miles per litre due to the aircraft's lower fuel efficiency relative to the A220's more modern engine technology.
+* Fuel cost per flight peaked in January–March (₦3.09M–₦3.17M) and declined through mid-year to ₦2.85M before slight recovery in Q4. The January peak is attributable to both high fuel prices AND higher A220 utilisation in Q1 when both A220s were fully operational.
+* The A220 costs ₦0.97M–₦1.13M per flight vs. the CRJ 900's ₦1.85M–₦2.15M per flight — the A220 burns approximately 45% less fuel per flight than the CRJ 900. Given that the A220 also generates nearly double the revenue per flight, the combined economics case for A220 fleet expansion is overwhelming.
+* November CRJ 900 fuel cost per flight: ₦1.99M — the lowest of the year, driven by falling fuel prices. This represents the best-case cost baseline for CRJ 900 operations under stable fuel pricing.
