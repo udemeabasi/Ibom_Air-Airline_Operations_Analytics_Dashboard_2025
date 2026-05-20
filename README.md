@@ -122,5 +122,72 @@ Cross-tab of all 20 routes vs. 7 days of the week, revealing which days carry th
 * ABV–CBQ and CBQ–ABV display highly uneven day distribution: Monday and Wednesday see 48 flights each, while Tuesday drops to just 34 and Friday to 35. This pattern is irregular and may reflect aircraft positioning constraints at Calabar (CBQ).
 * ABV–ENU / ENU–ABV pattern is inverted: Tuesday (47/47) and Thursday (45/46) are peak days, unlike the rest of the network. This suggests Enugu routes serve a different customer segment, possibly government or education-related travel.
 
+#### Capacity Utilisation
 
 
+Full-year comparison of seats available vs. bookings and passengers flown, with monthly load factor trends, capacity by aircraft, booked load factor trend, and available seats by route.
+
+#### Insights surfaced from this visual:
+
+* 80% flown load factor on 1.135 million available seats is a commercially healthy result, sitting above the typical industry breakeven threshold of ~75–77% for short-haul operations.
+* Booked load factor of 86% vs. flown load factor of 80% confirms a 6-percentage-point leakage gap — the 7% no-show rate translates to approximately 69,726 seats paid for but not flown. At even a conservative average fare of ₦15,000, this is over ₦1bn in potential overbooking/yield recovery.
+* CDB is the largest capacity contributor at 222K seats, edging CED (211K), CDA (200K), and CEE (199K). The near-equal distribution across these four tail numbers reflects a deliberate utilisation strategy rather than heavy reliance on any single aircraft.
+* BWL (30K) and BXO (19K) are dramatically underutilised compared to peers. Both aircraft appear to have operated for only partial years — BWL until March and BXO until February based on the operating days data — which explains the low cumulative seat count.
+* February capacity hit a 12-month low at 67K booked vs. 77K available — the widest gap between supply and bookings, confirming February as the softest demand month and the optimal window for heavy aircraft maintenance.
+* ABV–LOS dominates route capacity at 334K seats — double the second-largest route (LOS–QUO at 182K). Any capacity disruption on ABV–LOS has an immediate and outsized network impact.
+
+#### Load Factor by Origin & Destination
+
+
+Full 12-month load factor percentages for every one of the 20 origin-destination pairs, with a network total row. This is the most granular demand intelligence view in the dashboard.
+
+#### Insights surfaced from this visual:
+
+* ABV–LOS (88%) and LOS–ABV (88%) are the highest-performing routes by annual load factor, confirming that demand on the trunk route consistently fills capacity. These routes rarely dip below 80% even in weak months.
+* LOS–PHC (80%), LOS–QUO (84%), and PHC–LOS (85%) are the next-strongest routes, all performing above the network average — the PHC corridor is clearly a commercially robust secondary hub.
+* ACC–LOS (52%) and LOS–ACC (54%) are the weakest routes by a wide margin. The Accra route consistently underperforms — no month exceeds 68% on ACC–LOS, and the route dropped to 43% in March. This is a significant commercial red flag. The route is either incorrectly priced, poorly marketed, or structurally unable to compete on this international corridor.
+* April was the strongest month across the network at 87% total load factor, coinciding with Easter travel peak. This is the highest single-month figure of the year.
+* December declined to 80% — the second-weakest month (after January's 73%), confirming Q4 tail-off. Notably, LOS–PHC hit 95% in December while LOS–QUO hit 97%, suggesting domestic holiday travel concentrates on specific corridors rather than lifting the whole network.
+* ABV–CBQ (68%) and CBQ–ABV (70%) are the lowest-performing domestic routes after Accra — worth scrutinising for frequency rationalisation.
+* January is the weakest month at 73% total — an important planning baseline. Network-wide, only 2 routes exceeded 85% in January (CBQLOS at 90%, LOSABV at 85%), while several dropped to the 47–63% range.
+
+#### Fleet Availability
+
+
+Fleet count, serviceability split by aircraft type, flights and passengers by type, revenue contribution by type, monthly serviceable aircraft count, and individual aircraft operating days per month.
+
+#### Insights surfaced from this visual:
+
+* The A220 is the revenue efficiency champion. Two aircraft generating ₦59bn (43% of total revenue) while operating only 3,183 flights (28% of total) means the A220 earns significantly more per flight than the CRJ 900 — a powerful argument for fleet expansion.
+* The CRJ 900 carries 60% of passengers (541,349) but generates only 57% of revenue (₦77bn), despite operating 72% of all flights (8,135). The revenue-per-passenger ratio strongly favours the A220.
+* 8 out of 9 aircraft were serviceable throughout most of the year, with the combined serviceability dropping to 5 only in April and May — confirming a period of maintenance concentration that correlates with the April load factor dip.
+* 365 distinct operating days confirms zero non-operating calendar days in 2025. The fleet never had a full day offline as a combined unit — a strong maintenance performance indicator.
+* December shows only 1 A220 serviceable (CDA was offline) while CDB continued solo. This A220 capacity reduction in the peak December period partially explains why certain high-demand routes still underperformed despite compressed capacity.
+* BWK entered service in July (first appearance in the monthly table), while BWL and BXO were retired or transferred by Q2. BXP entered mid-February. This significant fleet transition mid-year adds complexity to year-on-year comparisons.
+
+#### CRJ 900 Fleet Deep-Dive
+
+
+Revenue generated, passengers carried, flights operated, and revenue contribution percentage — broken down by each CRJ 900 tail number (CED, CEE, BXP, BWK, BWL, BXO).
+
+#### Insights surfaced from this visual:
+
+* CED is the top-performing CRJ 900 aircraft generating ₦23bn (30% of CRJ revenue) across 2,367 flights — the highest operated count in the entire fleet including A220s.
+* CEE is a close second at ₦21bn (27%) with 2,236 flights. Together, CED and CEE account for 57% of CRJ revenue while operating 57% of CRJ flights — a near-perfect proportionality confirming consistent yield per flight.
+* BXP (₦18bn, 24%, 1,922 flights) is the third-ranking CRJ and operated for 11 months (February–December), meaning its per-month performance is marginally below CED and CEE.
+* BWK (₦11bn, 14%, 988 flights) operated only from July onwards (6 months) yet generated 14% of CRJ revenue — a higher revenue rate per flight (₦11.1M/flight) compared to CEE (₦9.4M/flight) and CED (₦9.7M/flight), suggesting BWK is deployed on more lucrative routes or time slots.
+* BWL (₦3bn, 3%, 401 flights) and BXO (₦2bn, 2%, 221 flights) operated for only 3 months and 2 months respectively. These are transitional aircraft — their low contribution is a function of limited operating time, not poor per-flight economics.
+* CRJ passenger distribution mirrors revenue distribution exactly: CED carries the most (160K), CEE second (151K), BXP third (126K) — reinforcing that revenue differences are driven by flight frequency rather than yield variation between aircraft.
+
+#### A220 Fleet Deep-Dive
+
+
+Revenue, passengers, flights, and contribution split between the two A220 tail numbers — CDB and CDA.
+
+#### Insights surfaced from this visual:
+
+* CDB slightly leads CDA across all metrics: ₦30bn vs ₦29bn revenue, 1,670 vs 1,513 flights, 190K vs 174K passengers, 51% vs 49% revenue share.
+* The near 50/50 split is a deliberate operational decision — Ibom Air has balanced both A220s as evenly as possible across the year, minimising single-aircraft dependency risk on high-value routes.
+* CDB's higher flight count (157 more flights than CDA) with proportionally higher revenue confirms similar yield per flight between the two aircraft — around ₦17.9M per flight for CDB vs ₦19.2M for CDA. Interestingly, CDA generates slightly more revenue per flight despite fewer total flights, suggesting CDA is scheduled on more premium or longer sectors.
+* Combined A220 performance: ₦59bn from 3,183 flights = ₦18.5M average revenue per flight, compared to ₦9.5M per flight for the CRJ 900 fleet. The A220 generates nearly double the revenue per flight of the CRJ 900 — the single most important strategic insight in this dashboard for fleet planning.
+* 363,730 passengers carried at an average of ~114 passengers per flight, versus 80 passengers per flight for the CRJ 900 — consistent with the A220's larger cabin configuration.
