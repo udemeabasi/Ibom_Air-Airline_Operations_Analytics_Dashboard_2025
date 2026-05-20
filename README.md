@@ -5,12 +5,29 @@ A production-grade, 16-page Power BI report delivering full-year operational int
 
 * Project Overview
 * Business Problem
-* Key Insights & Findings
-* Dashboard Pages
-* Data Model & DAX
+* Key Insights
+* Dashboard Visuals & Deep Insights
+    * Route Performance — Flights by Route
+    * Route Performance — Flights by Day of Week
+    * Capacity Utilisation
+    * Load Factor by Origin & Destination
+    * Fleet Availability
+    * CRJ 900 Fleet Deep-Dive
+    * A220 Fleet Deep-Dive
+    * Fleet Cross-Tabular — Flights by Aircraft & Route
+    * Fleet Cross-Tabular — Fleet Type by Route
+    * Fleet Cross-Tabular — Monthly Aircraft Utilisation
+    * Fleet Cross-Tabular — Aircraft Operating Days
+    * Fuel Uplift Analysis
+    * Fuel Breakdown — Cost vs Revenue
+    * Fuellers Information
+    * Aircraft & Fuel Utilisation
+    * Cargo Operations
+    * Flight Delays Analysis
+* Key Findings Summary
+* ata Model & DAX
 * Technical Stack
 * Repository Structure
-* How to Use
 * Author
 
 ### Project Overview
@@ -79,10 +96,32 @@ With 974,805 total bookings and only 905,079 passengers flown, approximately 69,
 
 _Implication: Reviewing the overbooking policy on high-demand routes and strengthening the ancillary penalties strategy (₦948M captured in 2025) could convert no-shows from a cost centre into a revenue buffer._
 
-### Dashboard Pages
-#### Page 1 — Operational Performance
-Tracks the full operations lifecycle: scheduled flights, operated flights, cancellations, unscheduled (charter/ferry) activity, on-time performance, and schedule reliability — by month for all of 2025.
-KPIValueScheduled Flights11,738Operated Flights11,318On-Time Performance (OTP)81%Schedule Reliability (SR)81%Cancelled Flights30Un-operated Flights390Non-Scheduled Flights45
-Trend: OTP peaked at 94% in March and July, before declining sharply to 58% in December. The strongest operational months were Q2–Q3; Q4 showed consistent deterioration.
+### Dashboard Visuals & Deep Insights
+#### Route Performance — Flights by Route
 
-![Ibom Air Operational Performance Overview](images/Operational_Performance.PNG)
+![Flights by Route](Images/Flights_by_Route.PNG)
+
+Monthly flight frequency per origin-destination pair across all 20 routes for the full year, enabling scheduling teams to spot seasonality patterns, frequency gaps, and volume distribution.
+
+#### Insights surfaced from this visual:
+
+* ABV–LOS is the undisputed trunk route with 1,390 flights and near-uniform frequency of ~120 flights per month — the most consistent scheduling pattern in the network.
+* February was the weakest month across all routes with the network dipping to just 774 total flights, roughly 24% below January's 1,020. Nearly every route shows its lowest monthly count in February, confirming a calendar-driven seasonality dip that should inform fleet maintenance scheduling.
+* LOS–QUO (1,029 flights) and QUO–LOS (980 flights) are the second-busiest route pair, but the asymmetry — 49 more outbound flights from Lagos — hints at demand imbalance worth investigating for yield management.
+* October is the standout peak month with 1,019 total flights, only narrowly behind January. The network operates near its structural capacity ceiling across Q3–Q4.
+* ABV–CBQ (280) and CBQ–ABV (279) are the lowest-frequency routes, with volumes less than 20% of the trunk route. These are likely marginal routes that require close revenue-per-seat monitoring to justify continued scheduling.
+
+#### Route Performance — Flights by Day of Week
+
+![Flights by Day of Week](Images/Flights_by_Days_of_Week.PNG)
+
+Cross-tab of all 20 routes vs. 7 days of the week, revealing which days carry the highest operational load and where scheduling asymmetries exist.
+
+#### Insights surfaced from this visual:
+* Wednesday is the network's peak day (1,644 flights), closely followed by Tuesday and Friday. This mid-week concentration is consistent with corporate travel patterns dominating the Ibom Air network.
+* Saturday is the lightest day with just 1,583 flights — 61 fewer than Wednesday. For a leisure-heavy weekend, this suppression likely reflects conscious scheduling rather than low demand, presenting a potential upside if weekend load factors justify additional rotations.
+* ABV–LOS and LOS–ABV show near-perfect daily balance (~196–201 flights per day), which is exceptional operational discipline — the kind of consistency that minimises rotational positioning costs.
+* ABV–CBQ and CBQ–ABV display highly uneven day distribution: Monday and Wednesday see 48 flights each, while Tuesday drops to just 34 and Friday to 35. This pattern is irregular and may reflect aircraft positioning constraints at Calabar (CBQ).
+* ABV–ENU / ENU–ABV pattern is inverted: Tuesday (47/47) and Thursday (45/46) are peak days, unlike the rest of the network. This suggests Enugu routes serve a different customer segment, possibly government or education-related travel.
+
+
