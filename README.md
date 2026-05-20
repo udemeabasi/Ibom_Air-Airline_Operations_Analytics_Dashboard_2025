@@ -94,6 +94,18 @@ With 974,805 total bookings and only 905,079 passengers flown, approximately 69,
 
 _Implication: Reviewing the overbooking policy on high-demand routes and strengthening the ancillary penalties strategy (₦948M captured in 2025) could convert no-shows from a cost centre into a revenue buffer._
 
+8. ACC–LOS / LOS–ACC load factors average 52–54%
+
+_Implication: Review route economics; risk of continued loss-making_
+
+9. December cargo fell 34% despite peak season
+
+_Implication: Commercial gap — festive cargo strategy needed_
+
+10. LOS–ABV delay rate 26% vs 19% network average
+
+_Implication: Dedicated ground operations review for LOS–ABV turnaround_
+
 ### Dashboard Visuals & Deep Insights
 #### Route Performance — Flights by Route
 
@@ -262,3 +274,77 @@ Total fuel metrics (cost, volume, cost per passenger, cost per flight, price per
 * Fuel cost per flight peaked in January–March (₦3.09M–₦3.17M) and declined through mid-year to ₦2.85M before slight recovery in Q4. The January peak is attributable to both high fuel prices AND higher A220 utilisation in Q1 when both A220s were fully operational.
 * The A220 costs ₦0.97M–₦1.13M per flight vs. the CRJ 900's ₦1.85M–₦2.15M per flight — the A220 burns approximately 45% less fuel per flight than the CRJ 900. Given that the A220 also generates nearly double the revenue per flight, the combined economics case for A220 fleet expansion is overwhelming.
 * November CRJ 900 fuel cost per flight: ₦1.99M — the lowest of the year, driven by falling fuel prices. This represents the best-case cost baseline for CRJ 900 operations under stable fuel pricing.
+
+#### Fuel Breakdown — Cost vs Revenue
+
+
+Month-by-month breakdown of fuel litres consumed, price per litre, total fuel cost, ticket revenue, and fuel cost as a percentage of ticket revenue — the definitive financial pressure indicator.
+
+#### Insights surfaced from this visual:
+
+* Full-year fuel cost as % of revenue: 21% — this is actually a healthy ratio for a short-haul African carrier. Industry benchmark for fuel as % of revenue typically runs 20–30% for efficient carriers, placing Ibom Air in a competitive cost position for 2025.
+* January–March fuel burden was elevated at 32–35%, driven by the highest fuel prices of the year (₦1,276–₦1,282/litre) combined with lower revenue months. March's revenue of ₦9.35bn against ₦2.95bn fuel cost = 32% — a tight margin.
+* The ratio improved dramatically from April (24%) through November (20%) as both fuel prices fell AND ticket revenue grew (November reached ₦14.4bn, the highest monthly revenue in the dataset). This dual improvement — falling costs plus rising revenue — is the ideal operating dynamic.
+* December shows ₦14.5bn ticket revenue with no fuel cost recorded — this is a data gap (December fuel data absent), not actual zero consumption. The December fuel figure would complete the full-year picture.
+* July–November each achieved 21% fuel ratio — four consecutive months of operational stability. This plateau at 21% represents the floor of achievable fuel efficiency under current fleet and routing conditions.
+* Total ticket revenue: ₦141.4bn against ₦30.3bn fuel cost (21%). The remaining ₦111bn must cover crew, maintenance, airport charges, sales costs, overheads, and profit — confirming the critical importance of keeping fuel costs below the 25% threshold.
+
+#### Fuellers Information
+
+
+Fuel supply volume, cost, and average price per litre broken down by the three fuel suppliers: OCTAVUS, CITA, and OVH.
+
+#### Insights surfaced from this visual:
+
+* OCTAVUS is the dominant supplier at 14.84M litres (58% of total volume) and ₦17.77bn cost. At ₦1,197/litre average, OCTAVUS charges a modest premium over CITA.
+* CITA supplies 9.86M litres (39% of volume) at ₦1,193/litre — virtually identical pricing to OCTAVUS. The near-identical pricing suggests these two suppliers operate in a coordinated market or price their fuel against the same reference benchmark.
+* OVH is the most competitive supplier at ₦1,047/litre — ₦150/litre cheaper than OCTAVUS and CITA. However, OVH only supplies 768,786 litres (3% of volume), suggesting airport coverage limitations or contractual volume caps.
+* The pricing gap between OVH (₦1,047) and OCTAVUS (₦1,197) = ₦150/litre means that at current volumes, each litre shifted from OCTAVUS to OVH saves ₦150. If even 5 million litres were redirected to OVH pricing, the annual saving would be ₦750M — a material procurement opportunity.
+* Total spend: ₦30.34bn across three suppliers — this is a significant procurement relationship. Competitive tendering on the OCTAVUS and CITA contracts at next renewal could generate meaningful cost reductions if OVH or equivalent competitive suppliers can expand coverage to all fuelling stations.
+
+#### Aircraft & Fuel Utilisation
+
+
+Per-aircraft breakdown of fuel litres consumed, total fuel cost, fuel cost per flight, flights operated, and average fuel price per litre — the definitive aircraft-level efficiency comparison.
+
+#### Insights surfaced from this visual:
+
+* CED consumed the most fuel of any single aircraft: 5.08M litres at ₦6.08bn across 2,367 flights. At ₦2,567,105 per flight, CED is actually more fuel-efficient per flight than BWL or BXO — but its sheer flight volume makes it the largest total consumer.
+* BXO is the most expensive aircraft per flight at ₦3,221,459 followed by BWL at ₦3,191,617. Both operated for only 2–3 months and both had the highest average fuel prices (₦1,277 and ₦1,274/litre respectively) — they operated in January–February when fuel was most expensive. This is a price-timing effect, not an aircraft inefficiency issue.
+* BWK is the most fuel-efficient CRJ 900 per litre at ₦1,150/litre — the lowest average fuel price of any aircraft. BWK entered service in July when fuel prices had already declined significantly from their Q1 peak. If BWK had operated the full year, its fuel cost per flight would likely be the lowest in the CRJ fleet.
+* CDA (A220) consumed 4.28M litres at ₦5.05bn across 1,513 flights = ₦3.34M per flight. CDB consumed 3.99M litres at ₦4.70bn across 1,670 flights = ₦2.81M per flight. CDB is meaningfully cheaper per flight than CDA — likely because CDB operated more frequently in H2 when fuel was cheaper, while CDA's early-year intensity raised its average.
+* The CRJ 900 fleet average: ₦2.54M per flight (weighted across CED, CEE, BXP, BWK). The A220 fleet average: ₦3.07M per flight — the A220 burns more fuel per flight in absolute terms (larger aircraft), but generates nearly double the revenue per flight, making it substantially more profitable per seat-kilometre.
+* Total fleet fuel efficiency: ₦2.68M per flight average across 11,318 flights. The variance between aircraft (₦2.1M for BWK to ₦3.2M for BXO) demonstrates that route assignment and fuel price timing matter as much as aircraft type in controlling fuel costs.
+
+
+#### Cargo Operations
+
+
+Cargo revenue, weight, shipments, and daily averages; monthly revenue trend with MoM % change; revenue by aircraft type; distribution by route; and revenue by individual aircraft.
+
+#### Insights surfaced from this visual:
+
+* ₦460M total cargo revenue from 94,090 pieces across 5,968 shipments is a modest but real ancillary stream — equivalent to approximately 0.34% of total ticket revenue. There is structural potential to grow this significantly.
+* September–October was the cargo revenue peak (₦58M in September, ₦50M in October). The sharp drop in November (₦35M, -30%) and December (₦23M, -34%) is unusual and counter-cyclical — the holiday season typically boosts cargo. This suggests either capacity constraints (A220 offline in December reduces belly cargo hold) or commercial gap in festive cargo marketing.
+* January–February showed positive momentum (+67% and +26% MoM) as cargo activity ramped up from a low ₦26M base. The March–April plateau (-6%, -1%) reflects the network-wide Q2 traffic normalisation.
+* The A220 generates 81.7% of cargo revenue (₦376M) despite carrying only 28% of flights. This is because the A220 operates on the highest-volume routes (ABV–LOS, LOS–PHC) where cargo demand is densest, and its wider hold provides greater volumetric capacity per flight.
+* ABV–LOS dominates cargo revenue at ₦303M (66% of total) — more than 5× the next route (LOS–PHC at ₦60M). The Abuja–Lagos corridor is not just the passenger backbone; it is the cargo backbone too.
+* CDA (A220) leads all aircraft at ₦209M followed by CDB (₦167M) — the 56%/44% cargo split between the two A220s is slightly more asymmetric than their passenger revenue split, suggesting CDA is scheduled on more cargo-intensive ABV–LOS rotations.
+* BXO generated only ₦3M cargo revenue (operated Jan–Feb only) and BWL generated ₦6M — both marginal. CEE's ₦24M and CED's ₦22M from the CRJ fleet show that belly cargo on the CRJ 900 is meaningful but constrained by hold volume.
+
+#### Flight Delays Analysis
+
+
+Full-year count of delayed flights (2,149) broken down by 25 delay cause categories, with a route-level cross-tab showing which routes experienced which delay types most frequently.
+
+#### Insights surfaced from this visual:
+
+* Technical faults caused 550 delays (25.6%) — the single largest category, more than weather (283) and Lagos Station congestion (395) combined. For an airline operating a mixed CRJ 900/A220 fleet, technical delays at this frequency signal a maintenance program that is reactive rather than preventive.
+* Lagos Station operational issues (395 delays, 18.4%) are the second largest category and are predominantly within the airline's control — ground handling speed, gate allocation, boarding efficiency. This is arguably the most actionable delay category because it does not require aircraft modification or infrastructure investment.
+* Weather (283 delays, 13.2%) is the only truly uncontrollable major category. At 13.2%, Ibom Air's weather delay rate is not unusual for Nigerian aviation where harmattan season (November–March) and rainy season (May–October) both create operational disruption.
+* Abuja Station (191 delays, 8.9%) is the third-highest station-controllable category, concentrated on ABV–LOS (69 delays from Abuja alone), ABV–QUO (18), and LOSABV (30 delays originating from Abuja). Ground operations at Nnamdi Azikiwe Airport are a persistent pain point.
+* Arrival delays (178, 8.3%) — late inbound aircraft causing downstream delay — are a systemic cascading effect. These are not independent events; they are downstream consequences of the Technical and Station delays listed above. Fixing root causes would reduce arrival delays proportionally.
+* LOS–ABV received the most delays of any single route: 357 — nearly one-third of all network delays. ABV–LOS had 318. Together, the trunk route pair accounts for 675 delays (31.4% of all delays) despite representing 24.5% of flights. The LOS–ABV route has a disproportionately high delay rate of ~26% (357 delays / 1,388 flights), well above the network average of 19%.
+* Fuel-related delays (142, 6.6%) are operationally critical because they are both preventable and dangerous to ignore. The concentration of fuel delays on ABV–LOS (11 delays), LOS–QUO (19 delays), and LOS–ABV (15 delays) points to fuelling throughput bottlenecks at specific airports rather than fuel availability issues.
+* Crew-related delays (74 crew + 29 crew rotation = 103 combined) are modest relative to total volume but indicate rostering or positioning inefficiencies that could be addressed through scheduling optimisation.
+
