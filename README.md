@@ -427,6 +427,7 @@ DIVIDE([Total Fuel Cost], [Total Fuel (Litres)])
 
 
 
+
 ### Technical Stack
 
 | Component                 | Technology  |
@@ -439,3 +440,11 @@ DIVIDE([Total Fuel Cost], [Total Fuel (Litres)])
 |Interactivity              |Bookmarks · Drill-through · Cross-filter · Dynamic slicers |
 |Deployment                 |Power BI Service |
 |Insights                   |Grok . Claude AI . CoPilot |
+
+
+### Author
+Udemeabasi Ekong
+Data Analyst · Power BI Developer · Aviation Domain Analytics
+
+LinkedIn: www.linkedin.com/in/udemeabasi-ekong-973344157
+Email: udemeabasi6@gmail.com
