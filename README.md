@@ -348,3 +348,25 @@ Full-year count of delayed flights (2,149) broken down by 25 delay cause categor
 * Fuel-related delays (142, 6.6%) are operationally critical because they are both preventable and dangerous to ignore. The concentration of fuel delays on ABV–LOS (11 delays), LOS–QUO (19 delays), and LOS–ABV (15 delays) points to fuelling throughput bottlenecks at specific airports rather than fuel availability issues.
 * Crew-related delays (74 crew + 29 crew rotation = 103 combined) are modest relative to total volume but indicate rostering or positioning inefficiencies that could be addressed through scheduling optimisation.
 
+
+### Data Model & DAX
+
+#### Star Schema Architecture
+
+![Semantic Model](Images/Semantic_Model.PNG)
+
+
+#### Selected DAX Measures
+
+### Technical Stack
+
+| Component                 | Technology  |
+|---------------------------|-------------|
+|Visualisation & modelling  |Power BI Desktop |
+|Data transformation        |Power Query |
+|Calculations               |DAX |
+|Data model                 |Star schema |
+|Security                   |Row-Level Security by station |
+|Interactivity              |Bookmarks · Drill-through · Cross-filter · Dynamic slicers |
+|Deployment                 |Power BI Service |
+|Insights                   |Grok . Claude AI . CoPilot |
