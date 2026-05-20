@@ -136,6 +136,7 @@ Cross-tab of all 20 routes vs. 7 days of the week, revealing which days carry th
 
 #### Capacity Utilisation
 
+![](Images/Capacity_Utilization.PNG)
 
 Full-year comparison of seats available vs. bookings and passengers flown, with monthly load factor trends, capacity by aircraft, booked load factor trend, and available seats by route.
 
@@ -150,6 +151,7 @@ Full-year comparison of seats available vs. bookings and passengers flown, with 
 
 #### Load Factor by Origin & Destination
 
+![](Images/Load_Factor_by%20Origin_and_Destination.PNG)
 
 Full 12-month load factor percentages for every one of the 20 origin-destination pairs, with a network total row. This is the most granular demand intelligence view in the dashboard.
 
@@ -165,6 +167,7 @@ Full 12-month load factor percentages for every one of the 20 origin-destination
 
 #### Fleet Availability
 
+![](Images/Fleet_Availability.PNG)
 
 Fleet count, serviceability split by aircraft type, flights and passengers by type, revenue contribution by type, monthly serviceable aircraft count, and individual aircraft operating days per month.
 
@@ -179,6 +182,7 @@ Fleet count, serviceability split by aircraft type, flights and passengers by ty
 
 #### CRJ 900 Fleet Deep-Dive
 
+![](Images/CRJ_Fleet_Details.PNG)
 
 Revenue generated, passengers carried, flights operated, and revenue contribution percentage — broken down by each CRJ 900 tail number (CED, CEE, BXP, BWK, BWL, BXO).
 
@@ -193,6 +197,7 @@ Revenue generated, passengers carried, flights operated, and revenue contributio
 
 #### A220 Fleet Deep-Dive
 
+![](Images/A220_Fleet_Details.PNG)
 
 Revenue, passengers, flights, and contribution split between the two A220 tail numbers — CDB and CDA.
 
@@ -206,6 +211,7 @@ Revenue, passengers, flights, and contribution split between the two A220 tail n
 
 #### Fleet Cross-Tabular — Flights by Aircraft & Route
 
+![](Images/Number_of_flights_by_Aircraft_by_routes.PNG)
 
 A complete cross-tab matrix of every aircraft tail number vs. every route — showing exactly how many flights each aircraft operated on each route across the full year.
 
@@ -220,6 +226,7 @@ A complete cross-tab matrix of every aircraft tail number vs. every route — sh
 
 #### Fleet Cross-Tabular — Fleet Type by Route
 
+![](Images/Fleet_Type_by_Route.PNG)
 
 Simplified two-column view showing A220 vs CRJ 900 split per route — the clearest statement of the fleet deployment strategy.
 
@@ -233,6 +240,7 @@ Simplified two-column view showing A220 vs CRJ 900 split per route — the clear
 
 #### Fleet Cross-Tabular — Monthly Aircraft Utilisation
 
+![](Images/Flights_by_Aircraft.PNG)
 
 Month-by-month flights operated by each individual aircraft tail number, revealing utilisation intensity, entry/exit dates, and workload distribution across the fleet calendar.
 
@@ -248,6 +256,7 @@ Month-by-month flights operated by each individual aircraft tail number, reveali
 
 #### Fleet Cross-Tabular — Aircraft Operating Days
 
+![](Images/Aircraft_Operating_Days.PNG)
 
 Calendar days each aircraft operated per month, providing a precise measure of physical availability distinct from flight frequency.
 
@@ -263,6 +272,7 @@ Calendar days each aircraft operated per month, providing a precise measure of p
 
 #### Fuel Uplift Analysis
 
+![](Images/Fuel_uplift_analysis.PNG)
 
 Total fuel metrics (cost, volume, cost per passenger, cost per flight, price per litre, cost per day), monthly cost trends by aircraft type, fuel price per litre trend, and fuel cost per flight trends.
 
@@ -277,6 +287,7 @@ Total fuel metrics (cost, volume, cost per passenger, cost per flight, price per
 
 #### Fuel Breakdown — Cost vs Revenue
 
+![](Images/Fuel_breakdown_by_litres_cost_and_percentage_of_revenue.PNG)
 
 Month-by-month breakdown of fuel litres consumed, price per litre, total fuel cost, ticket revenue, and fuel cost as a percentage of ticket revenue — the definitive financial pressure indicator.
 
@@ -291,6 +302,7 @@ Month-by-month breakdown of fuel litres consumed, price per litre, total fuel co
 
 #### Fuellers Information
 
+![](Images/Fuellers_information.PNG)
 
 Fuel supply volume, cost, and average price per litre broken down by the three fuel suppliers: OCTAVUS, CITA, and OVH.
 
@@ -304,6 +316,7 @@ Fuel supply volume, cost, and average price per litre broken down by the three f
 
 #### Aircraft & Fuel Utilisation
 
+![](Images/Aircrafts_and_fuel_utilization.PNG)
 
 Per-aircraft breakdown of fuel litres consumed, total fuel cost, fuel cost per flight, flights operated, and average fuel price per litre — the definitive aircraft-level efficiency comparison.
 
@@ -319,6 +332,7 @@ Per-aircraft breakdown of fuel litres consumed, total fuel cost, fuel cost per f
 
 #### Cargo Operations
 
+![](Images/Cargo_Operations.PNG)
 
 Cargo revenue, weight, shipments, and daily averages; monthly revenue trend with MoM % change; revenue by aircraft type; distribution by route; and revenue by individual aircraft.
 
@@ -334,6 +348,7 @@ Cargo revenue, weight, shipments, and daily averages; monthly revenue trend with
 
 #### Flight Delays Analysis
 
+![](Images/Delay_Analysis.PNG)
 
 Full-year count of delayed flights (2,149) broken down by 25 delay cause categories, with a route-level cross-tab showing which routes experienced which delay types most frequently.
 
@@ -426,8 +441,6 @@ DIVIDE([Total Fuel Cost], [Operated Flights])
 DIVIDE([Total Fuel Cost], [Total Fuel (Litres)])
 
 
-
-
 ### Technical Stack
 
 | Component                 | Technology  |
@@ -443,8 +456,8 @@ DIVIDE([Total Fuel Cost], [Total Fuel (Litres)])
 
 
 ### Author
-Udemeabasi Ekong
-Data Analyst · Power BI Developer · Aviation Domain Analytics
+#### Udemeabasi Ekong
+* Data Analyst · Power BI Developer · Aviation Domain Analytics
 
-LinkedIn: www.linkedin.com/in/udemeabasi-ekong-973344157
-Email: udemeabasi6@gmail.com
+* LinkedIn: www.linkedin.com/in/udemeabasi-ekong-973344157
+* Email: udemeabasi6@gmail.com
