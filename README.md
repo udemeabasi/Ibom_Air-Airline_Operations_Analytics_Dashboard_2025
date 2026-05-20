@@ -24,10 +24,8 @@ A production-grade, 16-page Power BI report delivering full-year operational int
     * Aircraft & Fuel Utilisation
     * Cargo Operations
     * Flight Delays Analysis
-* Key Findings Summary
-* ata Model & DAX
+* Data Model & DAX
 * Technical Stack
-* Repository Structure
 * Author
 
 ### Project Overview
@@ -123,5 +121,6 @@ Cross-tab of all 20 routes vs. 7 days of the week, revealing which days carry th
 * ABV–LOS and LOS–ABV show near-perfect daily balance (~196–201 flights per day), which is exceptional operational discipline — the kind of consistency that minimises rotational positioning costs.
 * ABV–CBQ and CBQ–ABV display highly uneven day distribution: Monday and Wednesday see 48 flights each, while Tuesday drops to just 34 and Friday to 35. This pattern is irregular and may reflect aircraft positioning constraints at Calabar (CBQ).
 * ABV–ENU / ENU–ABV pattern is inverted: Tuesday (47/47) and Thursday (45/46) are peak days, unlike the rest of the network. This suggests Enugu routes serve a different customer segment, possibly government or education-related travel.
+
 
 
