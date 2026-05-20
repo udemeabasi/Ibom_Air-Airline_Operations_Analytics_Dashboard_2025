@@ -358,6 +358,75 @@ Full-year count of delayed flights (2,149) broken down by 25 delay cause categor
 
 #### Selected DAX Measures
 
+* Total Revenue = SUMX(
+'CRANE REPORT',
+'CRANE REPORT'[Fare Amount] +'CRANE REPORT'[Surcharge Amount] +
+'CRANE REPORT'[SSR Fare Amount] + 
+COALESCE('CRANE REPORT'[Penalty Amount],0)
+)-[Insurance]
+
+* Total Booked (M) = SUM('MVT DATA'[BOOKED PAX])
+
+* Schedule Reliability = DIVIDE([On Schedule Flights], [Scheduled Flights], 0)
+
+* Serviceable A220 = CALCULATE(
+DISTINCTCOUNT('MVT DATA'[Aircraft]),
+'MVT DATA'[Aircraft] IN { "CDA", "CDB", "SU-GFA", "SU-GFE", "SU-GFD", "SU-GFG"})
+
+* Serviceable CRJ = CALCULATE(
+DISTINCTCOUNT('MVT DATA'[Aircraft]),
+'MVT DATA'[Aircraft] IN { "BWK", "BWM", "BWL", "BXP", "BXO", "CED", "CEE" })
+
+* OTP = DIVIDE([On-Time Flights], [Operated Flights])
+
+* On-Time Flights = CALCULATE(
+COUNTROWS('MVT DATA'),
+'MVT DATA'[Remark] = "On Time")
+
+* Load Factor = 
+VAR PaxCarried = SUM('MVT DATA'[FLOWN PAX])
+VAR Capacity = SUM('MVT DATA'[Total Capacity])
+RETURN
+DIVIDE(PaxCarried, Capacity)
+
+* Flown Pax (M) = SUM('MVT DATA'[FLOWN PAX])
+
+* Excess Baggage Revenue = SUMX('CRANE REPORT', 'CRANE REPORT'[Excess Bag Fare Amount])
+
+* Capacity Available = SUM('MVT DATA'[Total Capacity])
+
+* Booked LF = 
+VAR BookedPax = SUM('MVT DATA'[BOOKED PAX])
+VAR Capacity = SUM('MVT DATA'[Total Capacity])
+RETURN
+DIVIDE(BookedPax, Capacity)
+
+* Cargo Revenue = SUM('CARGO'[AMOUNT (NGN)])
+
+* Daily Avg Revenue = DIVIDE([Cargo Revenue], DISTINCTCOUNT('Date'[Date]))
+
+* % Cargo Rev MoM = 
+VAR CurrentMonth = [Cargo Revenue]
+VAR PastMonth = CALCULATE(
+[Cargo Revenue],
+DATEADD('Date'[Date], -1, MONTH)
+)
+RETURN
+DIVIDE(CurrentMonth-PastMonth, PastMonth, 0)
+
+* Total Fuel Cost = 
+SUMX(
+'FUEL DATA',
+COALESCE('FUEL DATA'[Amount (NGN)], 0))
+
+* Fuel Cost per Flight = 
+DIVIDE([Total Fuel Cost], [Operated Flights])
+
+* Av. Fuel Price/Litre = 
+DIVIDE([Total Fuel Cost], [Total Fuel (Litres)])
+
+
+
 ### Technical Stack
 
 | Component                 | Technology  |
